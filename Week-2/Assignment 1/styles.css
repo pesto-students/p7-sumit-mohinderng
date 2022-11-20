@@ -1,0 +1,99 @@
+
+
+h1
+{
+text-align: center;
+width: 400px;
+}
+
+.bodyDiv
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.leftDiv
+{
+    display: flex;
+
+}
+.p1
+{
+    position:absolute;
+    height: 500px;
+    width: 500px;
+    text-align: left;
+    left: 200px;
+}
+
+img
+{
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    top: 400px;
+    left: 250px;
+
+}
+
+#rightDiv
+{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    height: 500px;
+    width: 500px;
+    text-align: left;
+    right: 300px; 
+}
+
+#rightDiv > div
+{
+    margin-top: 30px;
+}
+
+form {
+    width: 80%;
+  }
+  
+
+#formDiv
+{
+    position: relative;
+    height: 300px;
+    margin: -230px;
+    left: -216px;
+    top: 70px;
+}
+
+#formDiv > label,input
+{
+    margin-top: 15px;
+    display: inline-block;
+
+}
+
+label+input {
+    width: 30%;
+    margin: 5 30% 0 4%;
+  }
+
+  input
+  {
+    display: inline-block;
+    left: 10px;
+  }
+
+.button
+{
+    background-color:rgb(18, 154, 200);
+}
+
+.button:hover
+{
+    background-color: rgb(15, 214, 15);
+}
+
+
